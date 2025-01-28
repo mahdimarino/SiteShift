@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col">
             <div class="extra-lg-text">
-                <span>user-centric</span><br>
+                <span>user-yess</span><br>
                 <span>experiences</span><br>
                 <span>that actually</span><br>
                 <span class="other-color">work</span>
