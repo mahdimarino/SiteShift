@@ -9,28 +9,28 @@ use App\Http\Controllers\LoginController;
     return view('layaout/app');
 }); */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 Route::get('/work', function () {
     return view('work');
-});
+})->name('work');
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 Route::get('/project', function () {
     return view('project');
-});
+})->name('project');
 
 Route::get('/photography', function () {
     return view('photography');
-});
+})->name('photography');
 Route::get('/sport', function () {
     return view('sport');
-});
+})->name('sport');
 
 Route::get('/mediabranding', function () {
     return view('mediabranding');
@@ -48,7 +48,7 @@ Route::get('blog/list', function () {
 // });
 
 
-Route::get('/', [LoginController::class, 'loginForm'])->name('login');
+// Route::get('/', [LoginController::class, 'loginForm'])->name('login');
 Route::post('/authenticate', [LoginController::class, 'authenticate'])->name('authenticate');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::post('/dashboard/blogs', [BlogController::class, 'store'])->name('insertData')->middleware('auth');
