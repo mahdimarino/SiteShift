@@ -10,10 +10,10 @@
     <div class="row">
         <div class="col">
             <div class="extra-lg-text">
-                <span>user-yess</span><br>
-                <span>experiences</span><br>
-                <span>that actually</span><br>
-                <span class="other-color">work</span>
+                <span>The Site Shift</span><br>
+                <span>Innovate</span><br>
+                <span>Design</span><br>
+                <span class="other-color">Develop</span>
             </div>
         </div>
     </div>
@@ -24,8 +24,8 @@
             <div class="boxy c1-color">
                 <div class="row">
                     <div class="col">
-                        <h1 class="title">LOGO MARKS &<br>
-                            BRANDING</h1>
+                        <h1 class="title">Social Media<br>
+                            Graphic Design</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -53,12 +53,12 @@
         </div>
         <div class="col-md-6">
             <div class="boxy img-box">
-                <div class="img"><img src="{{ asset('web/images/img1.png')}}" alt=""></div>
+                <div class="img"><img src="https://amineousmer.com/wp-content/uploads/2024/12/Post-IG-02-2048x2048.png" alt=""></div>
                 <div class="bottom-text">
-                    <div class="link">VIEW THIS PROJECT</div>
-                    <div class="text">Hubble eye lenses branding</div>
+                    <div class="link">VIEW THIS PROJECTS</div>
+                    {{-- <div class="text">Hubble eye lenses branding</div> --}}
                 </div>
-                <a href="project" class="project-link-full"></a>
+                <a href="mediabranding" class="project-link-full"></a>
             </div>
         </div>
     </div>
@@ -69,8 +69,8 @@
             <div class="boxy primary-color">
                 <div class="row">
                     <div class="col">
-                        <h1 class="title">USER INTERFACES<br>
-                            & EXPERIENCES</h1>
+                        <h1 class="title">Innovative Sport<br>
+                            Graphic Design</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -89,7 +89,7 @@
                                 <li>USER EXPERIENCE</li>
                                 <li>interactivity</li>
                                 <li>CONTENT PRODUCTION</li>
-                                <li>Checkout optimization</li>
+                                {{-- <li>Checkout optimization</li> --}}
                             </ul>
                         </div>
                     </div>
@@ -98,12 +98,12 @@
         </div>
         <div class="col-md-6">
             <div class="boxy img-box">
-                <div class="img"><img src="{{ asset('web/images/img2.png')}}" alt=""></div>
+                <div class="img"><img src="https://amineousmer.com/wp-content/uploads/2023/04/max-champ.png" alt=""></div>
                 <div class="bottom-text">
-                    <div class="link">VIEW THIS PROJECT</div>
-                    <div class="text">UIUX Design for travel agency</div>
+                    <div class="link">VIEW THIS PROJECTS</div>
+                    {{-- <div class="text">UIUX Design for travel agency</div> --}}
                 </div>
-                <a href="project" class="project-link-full"></a>
+                <a href="sport" class="project-link-full"></a>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@
                 <div class="row">
                     <div class="col">
                         <h1 class="title">Reels &<br>
-                           & Videos</h1>
+                            Videography</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -138,7 +138,7 @@
                 <div class="img"><img src="{{ asset('web/images/img3.png')}}" alt=""></div>
                 <div class="bottom-text">
                     <div class="link">VIEW THIS PROJECT</div>
-                    <div class="text">CoinView App development</div>
+                    {{-- <div class="text">CoinView App development</div> --}}
                 </div>
                 <a href="project" class="project-link-full"></a>
             </div>
@@ -187,40 +187,45 @@
             <div class="boxy c2-color">
                 <div class="row">
                     <div class="col">
-                        <h1 class="title">PACKAGE DESIGN</h1>
+                        {{-- <h1 class="title">PACKAGE DESIGN</h1> --}}
+                        <h1 class="title">PHOTOGRAPHY</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-5">
+                    <div class="col-12">
                         <div class="text">
                             <ul>
-                                <li>PACKAGing design</li>
+                                {{-- <li>PACKAGing design</li>
                                 <li>Retail design</li>
                                 <li>Interior design</li>
-                                <li>PRINT DESIGN</li>
+                                <li>PRINT DESIGN</li> --}}
+                               <li> Food - For restaurants and food brands.</li>
+                               <li> Nature - For eco-friendly campaigns.</li>
+                               <li> Work - Teams and workplaces.</li>
+                               <li> Human - Portraits and lifestyle.</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-7">
+                    {{-- <div class="col-xs-12 col-sm-6 col-md-12 col-lg-7">
                         <div class="text">
                             <ul>
-                                <li>STATIONERY DESIGN</li>
+                               <li>STATIONERY DESIGN</li>
                                 <li>printing & production</li>
-                                <li>GIFT ITEMS</li>
+                                <li>GIFT ITEMS</li> 
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="boxy img-box">
-                <div class="img"><img src="{{ asset('web/images/img4.png')}}" alt=""></div>
+                <div class="img"><img src="https://amineousmer.com/wp-content/uploads/2023/04/Ohashi-3.jpg" alt=""></div>
                 <div class="bottom-text">
                     <div class="link">VIEW THIS PROJECT</div>
-                    <div class="text">Hubble package design</div>
-                </div>
-                <a href="project" class="project-link-full"></a>
+                    {{-- <div class="text">Hubble package design</div>
+                </div> --}}
+                <a href="photography" class="project-link-full"></a>
             </div>
         </div>
     </div>
@@ -229,22 +234,22 @@
     <div class="row">
         <div class="col">
             <div class="lg-text">
-                <span>Awwward winning</span><br>
-                <span>london-based product</span><br>
+                {{-- <span>Awwward winning</span><br> --}}
+                <span>The Site Shift</span><br>
                 <span class="other-color">design studio.</span>
             </div>
             <div class="normal-text">
-                <p>But I must explain to you how all this mistaken idea of denouncing<br>
-                    pleasure and praising pain was born and I will give you a complete<br>
-                    account of the system.</p>
+                <p>we transform ideas into digital excellence.<br>
+                    Specializing in web and app development, software solutions,<br>
+                    branding, web and graphic design, 3D visualization</p>
             </div>
             <div class="btn-holder">
-                <a href="about.html" class="cr-btn primary">more about us</a>
+                <a href="about" class="cr-btn primary">more about us</a>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid clients-section">
+{{-- <div class="container-fluid clients-section">
     <div class="row">
         <div class="col">
             <div class="lg-text">
@@ -268,21 +273,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid other-content">
-    <div class="row">
-        <div class="col">
-            <div class="lg-text">have a project<br>for us?</div>
-            <div class="normal-text">
-                <p>Contact us and we’ll send you the brief form to fill.<br>
-                    Then we’ll contact you within 24 hours.</p>
-            </div>
-            <div class="btn-holder">
-                <a href="#" class="cr-btn ex-padding">let’s cre8</a>
-            </div>
-        </div>
-    </div>
-</div>
+</div> --}}
+
 
 
 

@@ -24,12 +24,24 @@ Route::get('/contact', function () {
 Route::get('/project', function () {
     return view('project');
 });
+
+Route::get('/photography', function () {
+    return view('photography');
+});
+Route::get('/sport', function () {
+    return view('sport');
+});
+
+Route::get('/mediabranding', function () {
+    return view('mediabranding');
+});
 Route::get('/blog', function () {
     return view('blog');
 });
 Route::get('blog/list', function () {
     return view('blog.list');
 });
+
 
 // Route::get('/blogs/create', function () {
 //     return view('bolgs.create');
